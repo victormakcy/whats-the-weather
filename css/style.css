@@ -1,0 +1,132 @@
+@font-face {
+    font-family: RobotoThin;
+    src: url(../fonts/roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(../fonts/roboto/Roboto-Condensed.ttf);
+}
+
+body, html {
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    color: #515151;
+    font-family: RobotoThin, RobotoLight, sans-serif;
+    
+    -webkit-transition: all 250ms linear;
+    -moz-transition: all 250ms linear;
+    -ms-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+    transition: all 250ms linear;
+    
+    transition-property: background-color, color;
+}
+
+.container {
+    margin-top: 16%;
+    height:80%;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.semi-transparent {
+    background-color: rgba(250,250,250,0.9);
+    border: none;
+}
+
+#city-input {
+    display: block;
+}
+
+#temperature {
+    font-size: 105px;
+}
+
+a {
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f53232;
+}
+
+footer {
+    height: 48px;
+    width: 100%;
+    margin: 16px;
+    position: absolute;
+    text-align: center;
+    opacity: 0.7;
+    bottom: 0;
+    
+    background-color: #FFFFFF;
+    font-family: RobotoCondensed, sans-serif;
+    
+    -webkit-transition: opacity 250ms ease-in-out;
+    -moz-transition: opacity 250ms ease-in-out;
+    -ms-transition: opacity 250ms ease-in-out;
+    -o-transition: opacity 250ms ease-in-out;
+    transition: opacity 250ms ease-in-out;
+}
+
+footer:hover {
+    opacity: 1;
+    filter:alpha(opacity=100);
+    zoom: 1;
+}
+
+.footer-section {
+    float:left;
+    font-size: 12px;
+    padding: 16px;
+}
+
+#footer-title {
+    width: 60%;
+    text-align: left;
+    padding-left:15%;
+}
+
+#footer-links {
+    text-align: right;
+}
+
+/* Temperature CSS classes */
+.raining {
+    background-color: #0099cc;
+    color: #f0f0f0;
+}
+
+.sunny {
+    background-color: #ffbb33;
+}
+
+.snowing {
+    background-color: #eeeeee;
+}
+
+.thunderstorm {
+    background-color: #273f6c;
+    color: #f0f0f0;
+}
+
+.foggy {
+    background-color: #c2c2c2;
+}
+
+.cloudy {
+    background-color: #e0e0e0;
+}
+
