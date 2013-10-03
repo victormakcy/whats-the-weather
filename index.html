@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Jeff Martin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>What's the Weather?</title>
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="center">
+                <h1 id="temperature">42&deg;</h1>
+            </div>
+            <form class="form-inline center" id="city-input" role="form">
+                <div class="form-group">
+                    <input type="text" class="form-control semi-transparent" placeholder="Enter your City">
+                </div>
+                <button type="submit" id="get-weather" class="btn btn-default semi-transparent"><span class="glyphicon glyphicon-chevron-right"></span></button>
+            </form>
+        </div>
+        
+        <!-- Load the scripts last -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/getweather.js"></script>
+    </body>
+    <footer class="center">
+        <div id="footer-title" class="footer-section">
+            <span class="footer-text"><a href=".">What's the Weather?</a></span>
+        </div>
+        <div id="footer-links" class="footer-section">
+            <span>Developed by <a href="http://www.jeffreymartin.ca">Jeff Martin</a></span>
+        </div>
+        <div id="footer-links" class="footer-section">
+            <span>Hosted on <a href="https://github.com/mjeff/whats-the-weather">Github</a></span>
+        </div>
+        <div id="footer-links" class="footer-section">
+            <span>Powered by <a href="">Yahoo! Weather</a></span>
+        </div>
+    </footer>
+</html>
