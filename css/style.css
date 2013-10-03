@@ -20,13 +20,13 @@ body, html {
     background-color: #e0e0e0;
     color: #515151;
     font-family: RobotoThin, RobotoLight, sans-serif;
-    
+
     -webkit-transition: all 250ms linear;
     -moz-transition: all 250ms linear;
     -ms-transition: all 250ms linear;
     -o-transition: all 250ms linear;
     transition: all 250ms linear;
-    
+
     transition-property: background-color, color;
 }
 
@@ -50,7 +50,17 @@ body, html {
 }
 
 #temperature {
-    font-size: 105px;
+    font-size: 10.5em;
+    font-weight: 100;
+    display: inline-block;
+}
+
+#degrees {
+    font-size: 0.7em;
+    font-weight: 100;
+    position: relative;
+    bottom: 47px;
+    right: 6px;
 }
 
 a {
@@ -70,10 +80,10 @@ footer {
     text-align: center;
     opacity: 0.7;
     bottom: 0;
-    
+
     background-color: #FFFFFF;
     font-family: RobotoCondensed, sans-serif;
-    
+
     -webkit-transition: opacity 250ms ease-in-out;
     -moz-transition: opacity 250ms ease-in-out;
     -ms-transition: opacity 250ms ease-in-out;
