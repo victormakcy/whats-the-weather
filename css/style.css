@@ -1,9 +1,4 @@
 @font-face {
-    font-family: RobotoThin;
-    src: url(../fonts/roboto/Roboto-Thin.ttf);
-}
-
-@font-face {
     font-family: RobotoLight;
     src: url(../fonts/roboto/Roboto-Light.ttf);
 }
@@ -19,7 +14,7 @@ body, html {
     overflow: hidden;
     background-color: #e0e0e0;
     color: #515151;
-    font-family: RobotoThin, RobotoLight, sans-serif;
+    font-family: RobotoLight, sans-serif;
     -webkit-transition: all 250ms linear;
     -moz-transition: all 250ms linear;
     -ms-transition: all 250ms linear;
