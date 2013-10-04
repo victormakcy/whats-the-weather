@@ -24,6 +24,9 @@ $(function() {
 
     // Callback function to display the weather
     var showWeather = function(jsonpResult) {
+        $('body, footer, a').removeClass();
+        $('body, footer, a').addClass('center');
+
         var temperature = jsonpResult['current_observation']['temp_c'];
         var condition = jsonpResult['current_observation']['weather'].toLowerCase();
 
