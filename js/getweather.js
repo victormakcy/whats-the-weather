@@ -41,7 +41,6 @@ $(function() {
             // Foggy
             $('body, footer, a').addClass('foggy');
         } else if ((condition.indexOf("overcast") != -1) || (condition.indexOf("cloud") != -1)) {
-            alert('hi');
             // Cloudy
             $('body, footer, a').addClass('cloudy');
         } else if ((condition.indexOf("clear") != -1) || (condition.indexOf("sun") != -1)) {
